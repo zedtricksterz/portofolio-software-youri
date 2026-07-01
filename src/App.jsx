@@ -15,6 +15,7 @@ const staticMarkup = `
 <a class="nav-link font-mono text-[11px] font-bold uppercase tracking-wider text-on-surface-variant transition hover:text-primary" href="#projects">Contributions</a>
 <a class="nav-link font-mono text-[11px] font-bold uppercase tracking-wider text-on-surface-variant transition hover:text-primary" href="#alignment">Alignment</a>
 <a class="nav-link font-mono text-[11px] font-bold uppercase tracking-wider text-on-surface-variant transition hover:text-primary" href="#apps">Software Scope</a>
+<a class="nav-link font-mono text-[11px] font-bold uppercase tracking-wider text-on-surface-variant transition hover:text-primary" href="#roadmap">Roadmap</a>
 <a class="nav-link font-mono text-[11px] font-bold uppercase tracking-wider text-on-surface-variant transition hover:text-primary" href="#closing">Kagara</a>
 </div>
 </div>
@@ -78,11 +79,11 @@ const staticMarkup = `
 <div class="mt-3 grid grid-cols-10 gap-1"> <span class="seg on-amber"></span><span class="seg on-amber"></span><span class="seg on-amber"></span><span class="seg on-amber"></span><span class="seg on-amber"></span><span class="seg on-amber"></span><span class="seg"></span><span class="seg"></span><span class="seg"></span><span class="seg"></span></div>
 </div>
 <div class="rounded border border-primary/40 bg-primary/10 p-4 shadow-[0_0_24px_rgba(79,219,200,.08)]">
-<div class="flex items-center justify-between font-mono text-[11px] uppercase tracking-wider">
-<span class="text-text-muted">Expansion Ready</span><span class="text-primary">Fullstack Dev</span>
-</div>
-<div class="mt-3 grid grid-cols-10 gap-1"> <span class="seg on-green"></span><span class="seg on-green"></span><span class="seg on-green"></span><span class="seg on-green"></span><span class="seg on-green"></span><span class="seg on-green"></span><span class="seg on-green"></span><span class="seg on-green"></span><span class="seg"></span><span class="seg"></span></div>
-</div>
+            <div class="flex items-center justify-between font-mono text-[11px] uppercase tracking-wider">
+              <span class="text-text-muted">Expansion Ready</span><span class="text-primary">Fullstack Dev</span>
+            </div>
+            <div class="mt-3 grid grid-cols-10 gap-1"> <span class="seg on-green"></span><span class="seg on-green"></span><span class="seg on-green"></span><span class="seg on-green"></span><span class="seg on-green"></span><span class="seg on-green"></span><span class="seg on-green"></span><span class="seg on-green"></span><span class="seg on-green"></span><span class="seg on-green"></span></div>
+          </div>
 </div>
 <div class="mt-5 rounded border border-secondary/30 bg-secondary/10 p-4 font-mono text-xs leading-6 text-on-surface-variant">
 <span class="text-secondary">Objective:</span> formalize software engineering scope to build internal KAGARA applications, not general IT support.
@@ -167,14 +168,14 @@ const staticMarkup = `
 <div class="mt-6 grid grid-cols-10 gap-1"><span class="seg on-amber"></span><span class="seg on-amber"></span><span class="seg on-amber"></span><span class="seg on-amber"></span><span class="seg on-amber"></span><span class="seg on-amber"></span><span class="seg"></span><span class="seg"></span><span class="seg"></span><span class="seg"></span></div>
 </article>
 <article class="reveal tech-card border-primary/50 p-6 shadow-[0_0_34px_rgba(79,219,200,.08)]" style="transition-delay:240ms">
-<div class="flex items-start justify-between gap-3">
-<span class="material-symbols-outlined text-5xl text-primary">code_blocks</span>
-<span class="badge badge-teal">Proven &amp; Ready</span>
-</div>
-<h3 class="mt-7 font-headline text-3xl font-black text-text-off-white">Software Engineering</h3>
-<p class="mt-3 text-on-surface-variant">Not just learning interest: already built and deployed WebGIS, with stack readiness for Laravel, Vue/Inertia, MySQL, APIs, dashboards, and CMS.</p>
-<div class="mt-6 grid grid-cols-10 gap-1"><span class="seg on-teal"></span><span class="seg on-teal"></span><span class="seg on-teal"></span><span class="seg on-teal"></span><span class="seg on-teal"></span><span class="seg on-teal"></span><span class="seg on-teal"></span><span class="seg on-teal"></span><span class="seg"></span><span class="seg"></span></div>
-</article>
+            <div class="flex items-start justify-between gap-3">
+              <span class="material-symbols-outlined text-5xl text-primary">code_blocks</span>
+              <span class="badge badge-teal">Proven &amp; Ready</span>
+            </div>
+            <h3 class="mt-7 font-headline text-3xl font-black text-text-off-white">Software Engineering</h3>
+            <p class="mt-3 text-on-surface-variant">Proven stack readiness for Laravel, Vue/Inertia, MySQL, and APIs through already built and deployed WebGIS.</p>
+            <div class="mt-6 grid grid-cols-10 gap-1"><span class="seg on-teal"></span><span class="seg on-teal"></span><span class="seg on-teal"></span><span class="seg on-teal"></span><span class="seg on-teal"></span><span class="seg on-teal"></span><span class="seg on-teal"></span><span class="seg on-teal"></span><span class="seg"></span><span class="seg"></span></div>
+          </article>
 </div>
 <div class="mt-10 grid gap-5 lg:grid-cols-3">
 <div class="reveal tech-card p-6">
@@ -223,7 +224,7 @@ const staticMarkup = `
 <div class="absolute inset-0 dot-grid opacity-20"></div>
 <div class="relative mx-auto max-w-content px-5 md:px-8">
 <article class="reveal tech-card grid gap-7 p-5 md:grid-cols-[1fr_1fr] md:p-8 lg:items-center">
-<div class="project-photo-grid"><figure class="media-frame"><img alt="Thiess Documentation 1" decoding="async" height="1280" loading="lazy" src="assets/thiess1.webp" width="720"/><figcaption class="media-caption">Thiess Documentation 1</figcaption></figure><figure class="media-frame"><img alt="Thiess Documentation 2" decoding="async" height="1280" loading="lazy" src="assets/thiess2.webp" width="720"/><figcaption class="media-caption">Thiess Documentation 2</figcaption></figure></div>
+<div class="project-photo-grid"><figure class="media-frame"><img alt="Thiess Documentation 1" decoding="async" height="1280" loading="lazy" src="/assets/thiess1.webp" width="720"/><figcaption class="media-caption">Thiess Documentation 1</figcaption></figure><figure class="media-frame"><img alt="Thiess Documentation 2" decoding="async" height="1280" loading="lazy" src="/assets/thiess2.webp" width="720"/><figcaption class="media-caption">Thiess Documentation 2</figcaption></figure></div>
 <div>
 <div class="flex flex-wrap gap-2"><span class="badge badge-blue">Meteorology / AWS</span><span class="badge badge-amber">Proof of Concept</span></div>
 <h3 class="mt-5 font-headline text-3xl font-black text-text-off-white md:text-5xl">PT Thiess Contractor Indonesia</h3>
@@ -242,7 +243,7 @@ const staticMarkup = `
 <h3 class="mt-5 font-headline text-3xl font-black text-text-off-white md:text-5xl">PT Riung Mitra Lestari</h3>
 <p class="mt-4 text-lg leading-8 text-on-surface-variant">AWS implementation support from physical installation until client side operation readiness.</p>
 <ul class="mt-7 grid gap-3 text-sm leading-6 text-on-surface-variant sm:grid-cols-2"><li><span class="text-primary">✓</span> AWS Installation: automatic weather station deployment.</li><li><span class="text-primary">✓</span> Instrument Setup: sensor and data logger configuration.</li><li><span class="text-primary">✓</span> Client Training: operational handover for client team.</li><li><span class="text-primary">✓</span> Troubleshooting: technical issue handling during installation.</li></ul>
-</div><div class="project-photo-grid two"><figure class="media-frame"><img alt="RML Documentation 1" decoding="async" height="1200" loading="lazy" src="assets/rml1.webp" width="900"/><figcaption class="media-caption">RML Documentation 1</figcaption></figure><figure class="media-frame"><img alt="RML Documentation 2" decoding="async" height="1200" loading="lazy" src="assets/rml2.webp" width="900"/><figcaption class="media-caption">RML Documentation 2</figcaption></figure></div>
+</div><div class="project-photo-grid two"><figure class="media-frame"><img alt="RML Documentation 1" decoding="async" height="1200" loading="lazy" src="/assets/rml1.webp" width="900"/><figcaption class="media-caption">RML Documentation 1</figcaption></figure><figure class="media-frame"><img alt="RML Documentation 2" decoding="async" height="1200" loading="lazy" src="/assets/rml2.webp" width="900"/><figcaption class="media-caption">RML Documentation 2</figcaption></figure></div>
 </article>
 </div>
 </section>
@@ -250,7 +251,7 @@ const staticMarkup = `
 <div class="absolute inset-0 dot-grid opacity-20"></div>
 <div class="relative mx-auto max-w-content px-5 md:px-8">
 <article class="reveal tech-card grid gap-7 p-5 md:grid-cols-[1fr_1fr] md:p-8 lg:items-center">
-<div class="project-photo-grid"><figure class="media-frame"><img alt="SIS Documentation 1" decoding="async" height="787" loading="lazy" src="assets/sis1.webp" width="1400"/><figcaption class="media-caption">SIS Documentation 1</figcaption></figure><figure class="media-frame"><img alt="SIS Documentation 2" decoding="async" height="787" loading="lazy" src="assets/sis2.webp" width="1400"/><figcaption class="media-caption">SIS Documentation 2</figcaption></figure><figure class="media-frame"><img alt="SIS Documentation 3" decoding="async" height="787" loading="lazy" src="assets/sis3.webp" width="1400"/><figcaption class="media-caption">SIS Documentation 3</figcaption></figure><figure class="media-frame"><img alt="SIS Documentation 4" decoding="async" height="787" loading="lazy" src="assets/sis4.webp" width="1400"/><figcaption class="media-caption">SIS Documentation 4</figcaption></figure></div>
+<div class="project-photo-grid"><figure class="media-frame"><img alt="SIS Documentation 1" decoding="async" height="787" loading="lazy" src="/assets/sis1.webp" width="1400"/><figcaption class="media-caption">SIS Documentation 1</figcaption></figure><figure class="media-frame"><img alt="SIS Documentation 2" decoding="async" height="787" loading="lazy" src="/assets/sis2.webp" width="1400"/><figcaption class="media-caption">SIS Documentation 2</figcaption></figure><figure class="media-frame"><img alt="SIS Documentation 3" decoding="async" height="787" loading="lazy" src="/assets/sis3.webp" width="1400"/><figcaption class="media-caption">SIS Documentation 3</figcaption></figure><figure class="media-frame"><img alt="SIS Documentation 4" decoding="async" height="787" loading="lazy" src="/assets/sis4.webp" width="1400"/><figcaption class="media-caption">SIS Documentation 4</figcaption></figure></div>
 <div>
 <div class="flex flex-wrap gap-2"><span class="badge badge-blue">Meteorology / AWS</span></div>
 <h3 class="mt-5 font-headline text-3xl font-black text-text-off-white md:text-5xl">PT Saptaindra Sejati</h3>
@@ -269,7 +270,7 @@ const staticMarkup = `
 <h3 class="mt-5 font-headline text-3xl font-black text-text-off-white md:text-5xl">PT Gunung Madu Plantations</h3>
 <p class="mt-4 text-lg leading-8 text-on-surface-variant">Two installation visits for plantation weather monitoring, including client training and follow up technical handling.</p>
 <ul class="mt-7 grid gap-3 text-sm leading-6 text-on-surface-variant sm:grid-cols-2"><li><span class="text-primary">✓</span> AWS Installation: two field installation visits.</li><li><span class="text-primary">✓</span> Instrument Setup: weather monitoring system configuration.</li><li><span class="text-primary">✓</span> Client Training: operational training for plantation team.</li><li><span class="text-primary">✓</span> Troubleshooting: issue handling between visits.</li></ul>
-</div><div class="project-photo-grid"><figure class="media-frame"><img alt="GMP Documentation 1" decoding="async" height="1200" loading="lazy" src="assets/gmp1.webp" width="675"/><figcaption class="media-caption">GMP Documentation 1</figcaption></figure><figure class="media-frame"><img alt="GMP Documentation 2" decoding="async" height="1200" loading="lazy" src="assets/gmp2.webp" width="900"/><figcaption class="media-caption">GMP Documentation 2</figcaption></figure><figure class="media-frame"><img alt="GMP Documentation 3" decoding="async" height="1200" loading="lazy" src="assets/gmp3.webp" width="675"/><figcaption class="media-caption">GMP Documentation 3</figcaption></figure><figure class="media-frame"><img alt="GMP Documentation 4" decoding="async" height="1200" loading="lazy" src="assets/gmp4.webp" width="675"/><figcaption class="media-caption">GMP Documentation 4</figcaption></figure></div>
+</div><div class="project-photo-grid"><figure class="media-frame"><img alt="GMP Documentation 1" decoding="async" height="1200" loading="lazy" src="/assets/gmp1.webp" width="675"/><figcaption class="media-caption">GMP Documentation 1</figcaption></figure><figure class="media-frame"><img alt="GMP Documentation 2" decoding="async" height="1200" loading="lazy" src="/assets/gmp2.webp" width="900"/><figcaption class="media-caption">GMP Documentation 2</figcaption></figure><figure class="media-frame"><img alt="GMP Documentation 3" decoding="async" height="1200" loading="lazy" src="/assets/gmp3.webp" width="675"/><figcaption class="media-caption">GMP Documentation 3</figcaption></figure><figure class="media-frame"><img alt="GMP Documentation 4" decoding="async" height="1200" loading="lazy" src="/assets/gmp4.webp" width="675"/><figcaption class="media-caption">GMP Documentation 4</figcaption></figure></div>
 </article>
 </div>
 </section>
@@ -277,7 +278,7 @@ const staticMarkup = `
 <div class="absolute inset-0 dot-grid opacity-20"></div>
 <div class="relative mx-auto max-w-content px-5 md:px-8">
 <article class="reveal tech-card grid gap-7 p-5 md:grid-cols-[1fr_1fr] md:p-8 lg:items-center">
-<figure class="media-frame"><img alt="KPN VWS Documentation" decoding="async" height="523" loading="lazy" src="assets/kpn1.webp" width="930"/><figcaption class="media-caption">KPN VWS Documentation</figcaption></figure>
+<figure class="media-frame"><img alt="KPN VWS Documentation" decoding="async" height="523" loading="lazy" src="/assets/kpn1.webp" width="930"/><figcaption class="media-caption">KPN VWS Documentation</figcaption></figure>
 <div>
 <div class="flex flex-wrap gap-2"><span class="badge badge-blue">Meteorology / VWS</span><span class="badge badge-amber">On Purchasing</span></div>
 <h3 class="mt-5 font-headline text-3xl font-black text-text-off-white md:text-5xl">PT KPN Plantations</h3>
@@ -296,7 +297,7 @@ const staticMarkup = `
 <h3 class="mt-5 font-headline text-3xl font-black text-text-off-white md:text-5xl">PT Tempu Rejo</h3>
 <p class="mt-4 text-lg leading-8 text-on-surface-variant">Reconfiguration and repeat troubleshooting support for AWS operation stability.</p>
 <ul class="mt-7 grid gap-3 text-sm leading-6 text-on-surface-variant sm:grid-cols-2"><li><span class="text-primary">✓</span> Instrument Setup: reset and reconfiguration of devices.</li><li><span class="text-primary">✓</span> Client Training: re training client operation workflow.</li><li><span class="text-primary">✓</span> Troubleshooting: recurring field issue diagnosis and solving.</li></ul>
-</div><div class="project-photo-grid two"><figure class="media-frame contain"><img alt="Tempu Rejo Troubleshooting 1" decoding="async" height="457" loading="lazy" src="assets/tempurejo1.webp" width="253"/><figcaption class="media-caption">Tempu Rejo Troubleshooting 1</figcaption></figure><figure class="media-frame contain"><img alt="Tempu Rejo Troubleshooting 2" decoding="async" height="422" loading="lazy" src="assets/tempurejo2.webp" width="797"/><figcaption class="media-caption">Tempu Rejo Troubleshooting 2</figcaption></figure></div>
+</div><div class="project-photo-grid two"><figure class="media-frame contain"><img alt="Tempu Rejo Troubleshooting 1" decoding="async" height="457" loading="lazy" src="/assets/tempurejo1.webp" width="253"/><figcaption class="media-caption">Tempu Rejo Troubleshooting 1</figcaption></figure><figure class="media-frame contain"><img alt="Tempu Rejo Troubleshooting 2" decoding="async" height="422" loading="lazy" src="/assets/tempurejo2.webp" width="797"/><figcaption class="media-caption">Tempu Rejo Troubleshooting 2</figcaption></figure></div>
 </article>
 </div>
 </section>
@@ -304,7 +305,7 @@ const staticMarkup = `
 <div class="absolute inset-0 dot-grid opacity-20"></div>
 <div class="relative mx-auto max-w-content px-5 md:px-8">
 <article class="reveal tech-card grid gap-7 p-5 md:grid-cols-[1fr_1fr] md:p-8 lg:items-center">
-<div class="project-photo-grid two"><figure class="media-frame"><img alt="MUTU PoC AWS 1" decoding="async" height="1200" loading="lazy" src="assets/mutupoc1.webp" width="675"/><figcaption class="media-caption">MUTU PoC AWS 1</figcaption></figure><figure class="media-frame"><img alt="MUTU PoC AWS 2" decoding="async" height="1200" loading="lazy" src="assets/mutupoc2.webp" width="675"/><figcaption class="media-caption">MUTU PoC AWS 2</figcaption></figure></div>
+<div class="project-photo-grid two"><figure class="media-frame"><img alt="MUTU PoC AWS 1" decoding="async" height="1200" loading="lazy" src="/assets/mutupoc1.webp" width="675"/><figcaption class="media-caption">MUTU PoC AWS 1</figcaption></figure><figure class="media-frame"><img alt="MUTU PoC AWS 2" decoding="async" height="1200" loading="lazy" src="/assets/mutupoc2.webp" width="675"/><figcaption class="media-caption">MUTU PoC AWS 2</figcaption></figure></div>
 <div>
 <div class="flex flex-wrap gap-2"><span class="badge badge-blue">Meteorology / AWS</span><span class="badge badge-amber">Proof of Concept</span></div>
 <h3 class="mt-5 font-headline text-3xl font-black text-text-off-white md:text-5xl">PT MUTU PoC AWS</h3>
@@ -323,7 +324,7 @@ const staticMarkup = `
 <h3 class="mt-5 font-headline text-3xl font-black text-text-off-white md:text-5xl">PT MUTU Swalang</h3>
 <p class="mt-4 text-lg leading-8 text-on-surface-variant">Mining GIS deliverables for geochemistry, geohydrology, seam map, and report ready layouts.</p>
 <ul class="mt-7 grid gap-3 text-sm leading-6 text-on-surface-variant sm:grid-cols-2"><li><span class="text-primary">✓</span> Geochemistry Map: technical mining report map.</li><li><span class="text-primary">✓</span> Geohydrology Map: groundwater and hydro map layout.</li><li><span class="text-primary">✓</span> Full Seam Map: coal seam visualization.</li><li><span class="text-primary">✓</span> GIS Layouting: print and submit ready finishing.</li></ul>
-</div><div class="project-photo-grid"><figure class="media-frame contain"><img alt="SWLC Quality Contour Map" decoding="async" height="1200" loading="lazy" src="assets/Peta_Kontur_Quality_ASH_Seam_TS11_SWLC.webp" width="849"/><figcaption class="media-caption">SWLC Quality Contour Map</figcaption></figure><figure class="media-frame contain"><img alt="SWLC Reserve Polygon Map" decoding="async" height="1200" loading="lazy" src="assets/Peta_Polygon_Cadangan_Seam_TS11_SWLC.webp" width="849"/><figcaption class="media-caption">SWLC Reserve Polygon Map</figcaption></figure><figure class="media-frame contain"><img alt="SWLC Resource Polygon Map" decoding="async" height="1200" loading="lazy" src="assets/Peta_Polygon_Sumberdaya_Seam_TS11_SWLC.webp" width="849"/><figcaption class="media-caption">SWLC Resource Polygon Map</figcaption></figure><figure class="media-frame contain"><img alt="SWLC Subcrop Map" decoding="async" height="1200" loading="lazy" src="assets/Peta_Subcrop_SWLC.webp" width="849"/><figcaption class="media-caption">SWLC Subcrop Map</figcaption></figure></div>
+</div><div class="project-photo-grid"><figure class="media-frame contain"><img alt="SWLC Quality Contour Map" decoding="async" height="1200" loading="lazy" src="/assets/Peta_Kontur_Quality_ASH_Seam_TS11_SWLC.webp" width="849"/><figcaption class="media-caption">SWLC Quality Contour Map</figcaption></figure><figure class="media-frame contain"><img alt="SWLC Reserve Polygon Map" decoding="async" height="1200" loading="lazy" src="/assets/Peta_Polygon_Cadangan_Seam_TS11_SWLC.webp" width="849"/><figcaption class="media-caption">SWLC Reserve Polygon Map</figcaption></figure><figure class="media-frame contain"><img alt="SWLC Resource Polygon Map" decoding="async" height="1200" loading="lazy" src="/assets/Peta_Polygon_Sumberdaya_Seam_TS11_SWLC.webp" width="849"/><figcaption class="media-caption">SWLC Resource Polygon Map</figcaption></figure><figure class="media-frame contain"><img alt="SWLC Subcrop Map" decoding="async" height="1200" loading="lazy" src="/assets/Peta_Subcrop_SWLC.webp" width="849"/><figcaption class="media-caption">SWLC Subcrop Map</figcaption></figure></div>
 </article>
 </div>
 </section>
@@ -331,7 +332,7 @@ const staticMarkup = `
 <div class="absolute inset-0 dot-grid opacity-20"></div>
 <div class="relative mx-auto max-w-content px-5 md:px-8">
 <article class="reveal tech-card grid gap-7 p-5 md:grid-cols-[1fr_1fr] md:p-8 lg:items-center">
-<div class="project-photo-grid"><figure class="media-frame contain"><img alt="MLT Watershed Map" decoding="async" height="1200" loading="lazy" src="assets/Peta_Daerah_Aliran_Sungai_MLT.webp" width="849"/><figcaption class="media-caption">MLT Watershed Map</figcaption></figure><figure class="media-frame contain"><img alt="MLT Morphology Map" decoding="async" height="1200" loading="lazy" src="assets/Peta_Morfologi_MLT.webp" width="849"/><figcaption class="media-caption">MLT Morphology Map</figcaption></figure><figure class="media-frame contain"><img alt="MLT Groundwater Flow Map" decoding="async" height="1200" loading="lazy" src="assets/Peta_Pola_Aliran_Air_Tanah_MLT.webp" width="849"/><figcaption class="media-caption">MLT Groundwater Flow Map</figcaption></figure><figure class="media-frame contain"><img alt="MLT Mining Sump Recommendation Map" decoding="async" height="1200" loading="lazy" src="assets/Peta_Rekomendasi_Lokasi_Sumuran_Tambang_MLT.webp" width="849"/><figcaption class="media-caption">MLT Mining Sump Recommendation Map</figcaption></figure></div>
+<div class="project-photo-grid"><figure class="media-frame contain"><img alt="MLT Watershed Map" decoding="async" height="1200" loading="lazy" src="/assets/Peta_Daerah_Aliran_Sungai_MLT.webp" width="849"/><figcaption class="media-caption">MLT Watershed Map</figcaption></figure><figure class="media-frame contain"><img alt="MLT Morphology Map" decoding="async" height="1200" loading="lazy" src="/assets/Peta_Morfologi_MLT.webp" width="849"/><figcaption class="media-caption">MLT Morphology Map</figcaption></figure><figure class="media-frame contain"><img alt="MLT Groundwater Flow Map" decoding="async" height="1200" loading="lazy" src="/assets/Peta_Pola_Aliran_Air_Tanah_MLT.webp" width="849"/><figcaption class="media-caption">MLT Groundwater Flow Map</figcaption></figure><figure class="media-frame contain"><img alt="MLT Mining Sump Recommendation Map" decoding="async" height="1200" loading="lazy" src="/assets/Peta_Rekomendasi_Lokasi_Sumuran_Tambang_MLT.webp" width="849"/><figcaption class="media-caption">MLT Mining Sump Recommendation Map</figcaption></figure></div>
 <div>
 <div class="flex flex-wrap gap-2"><span class="badge badge-cyan">GIS / Mining</span></div>
 <h3 class="mt-5 font-headline text-3xl font-black text-text-off-white md:text-5xl">PT MUTU Malintut</h3>
@@ -350,7 +351,7 @@ const staticMarkup = `
 <h3 class="mt-5 font-headline text-3xl font-black text-text-off-white md:text-5xl">PT Mandiri Intiperkasa</h3>
 <p class="mt-4 text-lg leading-8 text-on-surface-variant">Cross discipline contribution combining meteorology, hydrology, and GIS for mine drainage understanding.</p>
 <ul class="mt-7 grid gap-3 text-sm leading-6 text-on-surface-variant sm:grid-cols-2"><li><span class="text-primary">✓</span> Flow Pattern Map: mine water flow spatial map.</li><li><span class="text-primary">✓</span> Rainfall Return Period: rainfall design analysis.</li><li><span class="text-primary">✓</span> Drainage Capacity: mine drainage capacity calculation.</li><li><span class="text-primary">✓</span> Pump Requirement: pump requirement analysis.</li></ul>
-</div><div class="project-photo-grid mip-grid"><figure class="media-frame contain"><img alt="MIP Hydro Meteorology Technical Map" decoding="async" height="216" loading="lazy" src="assets/MIP1.webp" width="1400"/><figcaption class="media-caption">MIP Hydro Meteorology Technical Map</figcaption></figure><figure class="media-frame contain wide-map"><img alt="PT Mandiri Intiperkasa Flow Pattern Map" decoding="async" height="990" loading="lazy" src="assets/mip_flow_pattern.webp" width="1400"/><figcaption class="media-caption">Flow Pattern Map : Pit Dump Site Krassi</figcaption></figure></div>
+</div><div class="project-photo-grid mip-grid"><figure class="media-frame contain"><img alt="MIP Hydro Meteorology Technical Map" decoding="async" height="216" loading="lazy" src="/assets/MIP1.webp" width="1400"/><figcaption class="media-caption">MIP Hydro Meteorology Technical Map</figcaption></figure><figure class="media-frame contain wide-map"><img alt="PT Mandiri Intiperkasa Flow Pattern Map" decoding="async" height="990" loading="lazy" src="/assets/mip_flow_pattern.webp" width="1400"/><figcaption class="media-caption">Flow Pattern Map : Pit Dump Site Krassi</figcaption></figure></div>
 </article>
 </div>
 </section>
@@ -358,7 +359,7 @@ const staticMarkup = `
 <div class="absolute inset-0 dot-grid opacity-20"></div>
 <div class="relative mx-auto max-w-content px-5 md:px-8">
 <article class="reveal tech-card border-primary/50 shadow-[0_0_44px_rgba(79,219,200,.10)] grid gap-7 p-5 md:grid-cols-[1fr_1fr] md:p-8 lg:items-center">
-<figure class="media-frame contain"><img alt="Project Distribution Map Screenshot" decoding="async" height="639" loading="lazy" src="assets/projectsdistributionmap1.webp" width="1400"/><figcaption class="media-caption">Project Distribution Map Screenshot</figcaption></figure>
+<figure class="media-frame contain"><img alt="Project Distribution Map Screenshot" decoding="async" height="639" loading="lazy" src="/assets/projectsdistributionmap1.webp" width="1400"/><figcaption class="media-caption">Project Distribution Map Screenshot</figcaption></figure>
 <div>
 <div class="flex flex-wrap gap-2"><span class="badge badge-teal">Software Engineering / WebGIS</span><span class="badge badge-green">Deployed</span></div>
 <h3 class="mt-5 font-headline text-3xl font-black text-text-off-white md:text-5xl">Project Distribution Map</h3>
@@ -406,7 +407,7 @@ const staticMarkup = `
 </div>
 <div class="grid gap-5 md:grid-cols-2">
 <article class="reveal tech-card p-7">
-<figure class="media-frame contain"><img alt="Kagara Website CMS Mockup" decoding="async" height="634" loading="lazy" src="assets/kagara_cms.webp" width="1400"/><figcaption class="media-caption">Kagara Website CMS Mockup</figcaption></figure>
+<figure class="media-frame contain"><img alt="Kagara Website CMS Mockup" decoding="async" height="634" loading="lazy" src="/assets/kagara_cms.webp" width="1400"/><figcaption class="media-caption">Kagara Website CMS Mockup</figcaption></figure>
 <span class="material-symbols-outlined text-5xl text-secondary mt-5 block">web</span>
 <h3 class="mt-5 font-headline text-3xl font-black text-text-off-white">Kagara Website CMS</h3>
 <p class="mt-3 text-on-surface-variant">Custom company website system to reduce dependency on template WordPress and centralize content operations.</p>
@@ -417,18 +418,18 @@ const staticMarkup = `
 </ul>
 </article>
 <article class="reveal tech-card border-primary/50 p-7" style="transition-delay:120ms">
-<figure class="media-frame contain"><img alt="Kagara IoT Platform Mockup" decoding="async" height="633" loading="lazy" src="assets/kagara_iot_platform.webp" width="1400"/><figcaption class="media-caption">Kagara IoT Platform Mockup</figcaption></figure>
+<figure class="media-frame contain"><img alt="Kagara IoT Platform Mockup" decoding="async" height="633" loading="lazy" src="/assets/kagara_iot_platform.webp" width="1400"/><figcaption class="media-caption">Kagara IoT Platform Mockup</figcaption></figure>
 <span class="material-symbols-outlined text-5xl text-primary mt-5 block">monitoring</span>
 <h3 class="mt-5 font-headline text-3xl font-black text-text-off-white">Kagara IoT Platform</h3>
-<p class="mt-3 text-on-surface-variant">Centralized platform for AWS, VWS, AWLR, and AQMS monitoring with user access, device ownership, alerts, and exports.</p>
+<p class="mt-3 text-on-surface-variant">Long-term monitoring platform for AWS, VWS, AWLR, and AQMS. This is placed after internal digitalization because it requires stronger infrastructure, security, database strategy, and server planning.</p>
 <ul class="mt-6 space-y-2 text-sm leading-6 text-on-surface-variant">
 <li>✓ Auth, user/role management, owner/admin sharing</li>
 <li>✓ Device map, latest monitoring, dashboard, historical charts</li>
-<li>✓ Forecast integration, alerts, export, API/server integration</li>
+<li>✓ Forecast integration, alerts, export, API/server integration</li><li>✓ Estimated 6-month build after infrastructure analysis</li>
 </ul>
 </article>
 <article class="reveal tech-card p-7" style="transition-delay:240ms">
-<figure class="media-frame contain"><img alt="Kagara Geological Platform Technical Data" decoding="async" height="487" loading="lazy" src="assets/kagara_geological_platform.webp" width="1335"/><figcaption class="media-caption">Kagara Geological Platform Technical Data</figcaption></figure>
+<figure class="media-frame contain"><img alt="Kagara Geological Platform Technical Data" decoding="async" height="487" loading="lazy" src="/assets/kagara_geological_platform.webp" width="1335"/><figcaption class="media-caption">Kagara Geological Platform Technical Data</figcaption></figure>
 <span class="material-symbols-outlined text-5xl text-cyan-300 mt-5 block">landscape</span>
 <h3 class="mt-5 font-headline text-3xl font-black text-text-off-white">Kagara Geological Platform</h3>
 <p class="mt-3 text-on-surface-variant">Technical calculators and geological/hydrological utilities for mining workflows and engineering support.</p>
@@ -439,15 +440,70 @@ const staticMarkup = `
 </ul>
 </article>
 <article class="reveal tech-card p-7" style="transition-delay:360ms">
-<figure class="placeholder media-frame"><div><span class="material-symbols-outlined">apps</span><strong>Future Custom Applications</strong><small>Visual will follow the approved workflow scope</small></div></figure>
-<span class="material-symbols-outlined text-5xl text-tertiary mt-5 block">apps</span>
+<figure class="placeholder media-frame"><div><span class="material-symbols-outlined">hub</span><strong>KAGARA Internal Platform</strong><small>Project management, general affair, reporting, and workflow modules</small></div></figure>
+<span class="material-symbols-outlined text-5xl text-tertiary mt-5 block">hub</span>
 <h3 class="mt-5 font-headline text-3xl font-black text-text-off-white">Future Custom Applications</h3>
-<p class="mt-3 text-on-surface-variant">Internal digital tools based on KAGARA operational needs, built incrementally and scalable.</p>
+<p class="mt-3 text-on-surface-variant">Internal digital tools based on KAGARA operational needs, built incrementally after the role is formally expanded.</p>
 <ul class="mt-6 space-y-2 text-sm leading-6 text-on-surface-variant">
-<li>✓ Inventory / Project Equipment Tracker</li>
-<li>✓ Project Monitoring Dashboard and Internal Reporting System</li>
-<li>✓ DBMExplo Enhancement and Custom Workflow Apps</li>
+<li>✓ KAGARA Internal Platform for operational workflows</li>
+<li>✓ KAGARA Project Management and KAGARA General Affair modules</li>
+<li>✓ Inventory, reporting, approval flow, DBMExplo enhancement, and other manual workflows that can be systemized</li>
 </ul>
+</article>
+</div>
+</div>
+</section>
+
+<section class="relative overflow-hidden border-b border-border-subtle py-24 md:py-32" id="roadmap">
+<div class="absolute inset-0 dot-grid opacity-30"></div>
+<div class="absolute inset-0 bg-[radial-gradient(circle_at_12%_18%,rgba(79,219,200,.10),transparent_30%),radial-gradient(circle_at_86%_72%,rgba(255,185,95,.08),transparent_28%)]"></div>
+<div class="relative mx-auto max-w-content px-5 md:px-8">
+<div class="reveal mb-14 max-w-4xl">
+<div class="section-title-kicker">Role Expansion Roadmap</div>
+<h2 class="section-title">Internal digitalization first, KAGARA IoT Platform after the foundation is ready.</h2>
+<p class="mt-5 text-lg leading-8 text-on-surface-variant">The roadmap is intentionally phased. The priority is to optimize existing digital assets, then build internal applications one by one, and finally move into the more complex IoT platform after infrastructure, security, and data requirements are properly analyzed.</p>
+</div>
+<div class="roadmap-shell reveal">
+<div class="roadmap-track"><span class="roadmap-track-fill"></span></div>
+<article class="roadmap-card">
+<div class="roadmap-index">01</div>
+<div>
+<span class="badge badge-green">Month 1</span>
+<h3>Project Distribution Map Optimization</h3>
+<p>Already deployed. The first phase focuses on SEO optimization, cybersecurity hardening, performance improvement, metadata cleanup, and public-facing polish.</p>
+</div>
+</article>
+<article class="roadmap-card">
+<div class="roadmap-index">02</div>
+<div>
+<span class="badge badge-teal">Month 2 to 3</span>
+<h3>KAGARA Main Website CMS</h3>
+<p>Custom CMS until ready deploy: content, services/products, news, careers, media library, inquiry handling, employee login, role-based access, SEO, and cybersecurity.</p>
+</div>
+</article>
+<article class="roadmap-card">
+<div class="roadmap-index">03</div>
+<div>
+<span class="badge badge-cyan">Month 4 to 6</span>
+<h3>KAGARA Geological Platform</h3>
+<p>Internal mining reporting tools for rainfall return period, mine drainage, pump requirement, calculation archive, and exportable technical results.</p>
+</div>
+</article>
+<article class="roadmap-card">
+<div class="roadmap-index">04</div>
+<div>
+<span class="badge badge-amber">After Priority Review</span>
+<h3>Future Custom Applications</h3>
+<p>KAGARA Internal Platform modules such as project management, general affair, inventory, internal reporting, approval flow, DBMExplo enhancement, and other manual workflows that can be systemized.</p>
+</div>
+</article>
+<article class="roadmap-card highlight">
+<div class="roadmap-index">05</div>
+<div>
+<span class="badge badge-indigo">Estimated 6 Months</span>
+<h3>KAGARA IoT Platform</h3>
+<p>Placed last because it is the most complex: infrastructure analysis, server planning, database strategy, data security, user/device ownership, API integration, monitoring dashboard, alerts, export, and long-term scalability.</p>
+</div>
 </article>
 </div>
 </div>
@@ -509,28 +565,37 @@ function initPortfolioInteractions(THREE) {
 
     // Anti-lag motion: native scroll + IntersectionObserver only.
     // Lenis, ScrollTrigger, and per-section Three.js were removed because they made wheel scroll feel delayed on some laptops.
-    const revealObserver = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
-          revealObserver.unobserve(entry.target);
-        }
-      });
-    }, { threshold: 0.10, rootMargin: '0px 0px -40px 0px' });
+    if (!window.__portfolioRevealInitialized) {
+      window.__portfolioRevealInitialized = true;
+      const revealObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            revealObserver.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.08, rootMargin: '0px 0px -28px 0px' });
 
-    document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
-
-    // Active nav state
-    const navLinks = Array.from(document.querySelectorAll('.nav-link'));
-    const sections = navLinks.map(link => document.querySelector(link.getAttribute('href'))).filter(Boolean);
-    const navObserver = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          navLinks.forEach(link => link.classList.toggle('active', link.getAttribute('href') === '#' + entry.target.id));
-        }
+      document.querySelectorAll('.reveal').forEach((el, index) => {
+        el.style.transitionDelay = `${Math.min(index % 4, 3) * 55}ms`;
+        revealObserver.observe(el);
       });
-    }, { threshold: 0.3, rootMargin: '-20% 0px -55% 0px' });
-    sections.forEach(section => navObserver.observe(section));
+
+      // Active nav state
+      const navLinks = Array.from(document.querySelectorAll('.nav-link'));
+      const sections = navLinks.map(link => document.querySelector(link.getAttribute('href'))).filter(Boolean);
+      const navObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            navLinks.forEach(link => link.classList.toggle('active', link.getAttribute('href') === '#' + entry.target.id));
+          }
+        });
+      }, { threshold: 0.3, rootMargin: '-20% 0px -55% 0px' });
+      sections.forEach(section => navObserver.observe(section));
+    }
+
+    if (!THREE || window.__portfolioHeroInitialized) return;
+    window.__portfolioHeroInitialized = true;
 
     // Three.js procedural mining terrain + sensor network hero
     const canvas = document.getElementById('hero-canvas');
@@ -630,9 +695,16 @@ function initPortfolioInteractions(THREE) {
 export default function App() {
   useEffect(() => {
     let mounted = true;
+
+    // Run scroll reveal and nav state immediately.
+    // Do not wait for Three.js, otherwise non-hero content can look flat or hidden if WebGL import is delayed.
+    initPortfolioInteractions(null);
+
+    // Load Three.js only for the hero background after the page is interactive.
     import('three').then((module) => {
       if (mounted) initPortfolioInteractions(module);
     });
+
     return () => { mounted = false; };
   }, []);
 

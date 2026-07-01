@@ -174,7 +174,7 @@ const staticMarkup = `
             </div>
             <h3 class="mt-7 font-headline text-3xl font-black text-text-off-white">Software Engineering</h3>
             <p class="mt-3 text-on-surface-variant">Proven stack readiness for Laravel, Vue/Inertia, MySQL, and APIs through already built and deployed WebGIS.</p>
-            <div class="mt-6 grid grid-cols-10 gap-1"><span class="seg on-teal"></span><span class="seg on-teal"></span><span class="seg on-teal"></span><span class="seg on-teal"></span><span class="seg on-teal"></span><span class="seg on-teal"></span><span class="seg on-teal"></span><span class="seg on-teal"></span><span class="seg"></span><span class="seg"></span></div>
+            <div class="mt-6 grid grid-cols-10 gap-1"><span class="seg on-teal"></span><span class="seg on-teal"></span><span class="seg on-teal"></span><span class="seg on-teal"></span><span class="seg on-teal"></span><span class="seg on-teal"></span><span class="seg on-teal"></span><span class="seg on-teal"></span><span class="seg on-teal"></span><span class="seg on-teal"></span></div>
           </article>
 </div>
 <div class="mt-10 grid gap-5 lg:grid-cols-3">

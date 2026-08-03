@@ -87,6 +87,16 @@ export const projectAssets = [
     ]
   },
   {
+    "slug": "borneo-prima",
+    "title": "PT Borneo Prima · Jobsite BUA",
+    "images": [
+      "borneo_prima_aws1.webp",
+      "borneo_prima_aws2.webp",
+      "borneo_prima_aws3.webp",
+      "borneo_prima_aws4.webp"
+    ]
+  },
+  {
     "slug": "webgis",
     "title": "Project Distribution Map",
     "images": [

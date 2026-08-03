@@ -212,7 +212,7 @@ const staticMarkup = `
 <h2 class="section-title">Each contribution is shown as its own focused project block.</h2>
 <p class="mt-6 max-w-3xl text-lg leading-8 text-on-surface-variant">The flow below separates field execution, GIS deliverables, and deployed software work. Each project is separated clearly so the story stays focused during discussion.</p>
 <div class="mt-9 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-<div class="rounded-xl border border-border-subtle bg-surface-container-low/80 p-4"><span class="badge badge-blue">AWS / VWS</span><p class="mt-3 text-sm text-on-surface-variant">Thiess, RML, SIS, GMP, KPN, Tempu Rejo, MUTU PoC</p></div>
+<div class="rounded-xl border border-border-subtle bg-surface-container-low/80 p-4"><span class="badge badge-blue">AWS / VWS</span><p class="mt-3 text-sm text-on-surface-variant">Thiess, RML, SIS, GMP, KPN, Borneo Prima, Tempu Rejo, MUTU PoC</p></div>
 <div class="rounded-xl border border-border-subtle bg-surface-container-low/80 p-4"><span class="badge badge-cyan">GIS / Mining</span><p class="mt-3 text-sm text-on-surface-variant">MUTU Swalang, MUTU Malintut, Mandiri Intiperkasa</p></div>
 <div class="rounded-xl border border-border-subtle bg-surface-container-low/80 p-4"><span class="badge badge-teal">Software</span><p class="mt-3 text-sm text-on-surface-variant">Project Distribution Map as deployed WebGIS proof</p></div>
 <div class="rounded-xl border border-border-subtle bg-surface-container-low/80 p-4"><span class="badge badge-amber">Discussion</span><p class="mt-3 text-sm text-on-surface-variant">Value already crosses field, spatial, and digital development</p></div>
@@ -266,10 +266,10 @@ const staticMarkup = `
 <div class="relative mx-auto max-w-content px-5 md:px-8">
 <article class="reveal tech-card grid gap-7 p-5 md:grid-cols-[1fr_1fr] md:p-8 lg:items-center">
 <div>
-<div class="flex flex-wrap gap-2"><span class="badge badge-blue">Meteorology / AWS</span><span class="badge badge-amber">2 Visits</span></div>
+<div class="flex flex-wrap gap-2"><span class="badge badge-blue">Meteorology / AWS</span></div>
 <h3 class="mt-5 font-headline text-3xl font-black text-text-off-white md:text-5xl">PT Gunung Madu Plantations</h3>
-<p class="mt-4 text-lg leading-8 text-on-surface-variant">Two installation visits for plantation weather monitoring, including client training and follow up technical handling.</p>
-<ul class="mt-7 grid gap-3 text-sm leading-6 text-on-surface-variant sm:grid-cols-2"><li><span class="text-primary">✓</span> AWS Installation: two field installation visits.</li><li><span class="text-primary">✓</span> Instrument Setup: weather monitoring system configuration.</li><li><span class="text-primary">✓</span> Client Training: operational training for plantation team.</li><li><span class="text-primary">✓</span> Troubleshooting: issue handling between visits.</li></ul>
+<p class="mt-4 text-lg leading-8 text-on-surface-variant">One field installation visit for plantation weather monitoring, including system setup and client training.</p>
+<ul class="mt-7 grid gap-3 text-sm leading-6 text-on-surface-variant sm:grid-cols-2"><li><span class="text-primary">✓</span> AWS Installation: one field installation visit.</li><li><span class="text-primary">✓</span> Instrument Setup: weather monitoring system configuration.</li><li><span class="text-primary">✓</span> Client Training: operational training for plantation team.</li><li><span class="text-primary">✓</span> Technical Support: operational guidance after installation.</li></ul>
 </div><div class="project-photo-grid"><figure class="media-frame"><img alt="GMP Documentation 1" decoding="async" height="1200" loading="lazy" src="/assets/gmp1.webp" width="675"/><figcaption class="media-caption">GMP Documentation 1</figcaption></figure><figure class="media-frame"><img alt="GMP Documentation 2" decoding="async" height="1200" loading="lazy" src="/assets/gmp2.webp" width="900"/><figcaption class="media-caption">GMP Documentation 2</figcaption></figure><figure class="media-frame"><img alt="GMP Documentation 3" decoding="async" height="1200" loading="lazy" src="/assets/gmp3.webp" width="675"/><figcaption class="media-caption">GMP Documentation 3</figcaption></figure><figure class="media-frame"><img alt="GMP Documentation 4" decoding="async" height="1200" loading="lazy" src="/assets/gmp4.webp" width="675"/><figcaption class="media-caption">GMP Documentation 4</figcaption></figure></div>
 </article>
 </div>
@@ -280,10 +280,10 @@ const staticMarkup = `
 <article class="reveal tech-card grid gap-7 p-5 md:grid-cols-[1fr_1fr] md:p-8 lg:items-center">
 <figure class="media-frame"><img alt="KPN VWS Documentation" decoding="async" height="523" loading="lazy" src="/assets/kpn1.webp" width="930"/><figcaption class="media-caption">KPN VWS Documentation</figcaption></figure>
 <div>
-<div class="flex flex-wrap gap-2"><span class="badge badge-blue">Meteorology / VWS</span><span class="badge badge-amber">On Purchasing</span></div>
+<div class="flex flex-wrap gap-2"><span class="badge badge-blue">Meteorology / VWS</span><span class="badge badge-amber">2 Active VWS</span></div>
 <h3 class="mt-5 font-headline text-3xl font-black text-text-off-white md:text-5xl">PT KPN Plantations</h3>
-<p class="mt-4 text-lg leading-8 text-on-surface-variant">Virtual Weather Station support for plantation decision making and purchasing discussion.</p>
-<ul class="mt-7 grid gap-3 text-sm leading-6 text-on-surface-variant sm:grid-cols-2"><li><span class="text-primary">✓</span> Proof of Concept: VWS demonstration for client location.</li><li><span class="text-primary">✓</span> Client Training: explanation of use and value.</li><li><span class="text-primary">✓</span> Purchasing Support: support during procurement discussion.</li></ul>
+<p class="mt-4 text-lg leading-8 text-on-surface-variant">Completed VWS implementation with two active virtual weather stations currently running across the plantation.</p>
+<ul class="mt-7 grid gap-3 text-sm leading-6 text-on-surface-variant sm:grid-cols-2"><li><span class="text-primary">✓</span> VWS Implementation: two virtual weather stations activated for plantation locations.</li><li><span class="text-primary">✓</span> Client Training: explanation of use and value.</li><li><span class="text-primary">✓</span> Operational Use: both VWS units are active and supporting weather-based decisions.</li></ul>
 </div>
 </article>
 </div>
@@ -293,7 +293,7 @@ const staticMarkup = `
 <div class="relative mx-auto max-w-content px-5 md:px-8">
 <article class="reveal tech-card grid gap-7 p-5 md:grid-cols-[1fr_1fr] md:p-8 lg:items-center">
 <div>
-<div class="flex flex-wrap gap-2"><span class="badge badge-blue">Meteorology / AWS</span><span class="badge badge-amber">Troubleshooting</span></div>
+<div class="flex flex-wrap gap-2"><span class="badge badge-blue">Meteorology / AWS</span><span class="badge badge-amber">System Recovery</span></div>
 <h3 class="mt-5 font-headline text-3xl font-black text-text-off-white md:text-5xl">PT Tempu Rejo</h3>
 <p class="mt-4 text-lg leading-8 text-on-surface-variant">Reconfiguration and repeat troubleshooting support for AWS operation stability.</p>
 <ul class="mt-7 grid gap-3 text-sm leading-6 text-on-surface-variant sm:grid-cols-2"><li><span class="text-primary">✓</span> Instrument Setup: reset and reconfiguration of devices.</li><li><span class="text-primary">✓</span> Client Training: re training client operation workflow.</li><li><span class="text-primary">✓</span> Troubleshooting: recurring field issue diagnosis and solving.</li></ul>
@@ -355,6 +355,19 @@ const staticMarkup = `
 </article>
 </div>
 </section>
+<section class="project-page relative overflow-hidden border-b border-border-subtle py-20 md:py-24" id="project-borneo-prima">
+<div class="absolute inset-0 dot-grid opacity-20"></div>
+<div class="relative mx-auto max-w-content px-5 md:px-8">
+<article class="reveal tech-card grid gap-7 p-5 md:grid-cols-[1fr_1fr] md:p-8 lg:items-center">
+<div>
+<div class="flex flex-wrap gap-2"><span class="badge badge-blue">Meteorology / AWS</span><span class="badge badge-amber">Full-Sensor Deployment</span></div>
+<h3 class="mt-5 font-headline text-3xl font-black text-text-off-white md:text-5xl">PT Borneo Prima · Jobsite BUA</h3>
+<p class="mt-4 text-lg leading-8 text-on-surface-variant">Full-sensor AWS installation to digitalize rainfall, weather, and particulate matter data in a high-dust mining area. Wi-Fi connectivity was used because GSM signal was unavailable across the site.</p>
+<ul class="mt-7 grid gap-3 text-sm leading-6 text-on-surface-variant sm:grid-cols-2"><li><span class="text-primary">✓</span> Full-Sensor AWS: air temperature and humidity, wind direction, wind speed, rainfall, and particulate matter.</li><li><span class="text-primary">✓</span> Wi-Fi Deployment: system configuration for a site without GSM coverage.</li><li><span class="text-primary">✓</span> Environmental Monitoring: digital weather, rainfall, and dust data collection.</li><li><span class="text-primary">✓</span> Client Training: instrument operation, application use, maintenance, and troubleshooting.</li></ul>
+</div><div class="project-photo-grid"><figure class="media-frame"><img alt="Borneo Prima AWS Installed Unit" decoding="async" height="2048" loading="lazy" src="/assets/borneo_prima_aws1.webp" width="1152"/><figcaption class="media-caption">Full-Sensor AWS Installation</figcaption></figure><figure class="media-frame"><img alt="Borneo Prima Installation Team" decoding="async" height="2048" loading="lazy" src="/assets/borneo_prima_aws2.webp" width="1152"/><figcaption class="media-caption">Installation and Handover Team</figcaption></figure><figure class="media-frame"><img alt="Borneo Prima Site Preparation" decoding="async" height="2048" loading="lazy" src="/assets/borneo_prima_aws3.webp" width="1152"/><figcaption class="media-caption">Site Preparation at Jobsite BUA</figcaption></figure><figure class="media-frame"><img alt="Borneo Prima AWS Assembly" decoding="async" height="2048" loading="lazy" src="/assets/borneo_prima_aws4.webp" width="1152"/><figcaption class="media-caption">AWS Pole Assembly Process</figcaption></figure></div>
+</article>
+</div>
+</section>
 <section class="project-page relative overflow-hidden border-b border-border-subtle py-20 md:py-24" id="webgis">
 <div class="absolute inset-0 dot-grid opacity-20"></div>
 <div class="relative mx-auto max-w-content px-5 md:px-8">
@@ -385,8 +398,8 @@ const staticMarkup = `
 </div>
 <div class="reveal tech-card p-7" style="transition-delay:120ms">
 <span class="badge badge-amber">Value Added</span>
-<h3 class="mt-5 font-headline text-3xl font-black text-text-off-white">GIS + Digital Initiative</h3>
-<p class="mt-3 text-on-surface-variant">Mining maps, hydromet analysis, internal web system concepting, dashboard planning, and deployed WebGIS execution.</p>
+<h3 class="mt-5 font-headline text-3xl font-black text-text-off-white">GIS + Hydromet</h3>
+<p class="mt-3 text-on-surface-variant">Mining maps, hydromet analysis, drainage support, rainfall analysis, and technical spatial deliverables available when required by the company.</p>
 </div>
 <div class="reveal tech-card border-primary/50 p-7" style="transition-delay:240ms">
 <span class="badge badge-teal">Proposed</span>
@@ -546,7 +559,7 @@ const staticMarkup = `
         </p>
 <div class="reveal mt-12 grid w-full max-w-4xl gap-4 md:grid-cols-3" style="transition-delay:260ms">
 <div class="rounded border border-border-subtle bg-surface-container-low/80 p-5"><div class="font-mono text-xs uppercase text-text-muted">Current</div><div class="mt-2 font-headline text-2xl font-black text-text-off-white">Meteorologist</div></div>
-<div class="rounded border border-secondary/40 bg-secondary/10 p-5"><div class="font-mono text-xs uppercase text-secondary">Value Add</div><div class="mt-2 font-headline text-2xl font-black text-text-off-white">GIS + Digital</div></div>
+<div class="rounded border border-secondary/40 bg-secondary/10 p-5"><div class="font-mono text-xs uppercase text-secondary">Value Add</div><div class="mt-2 font-headline text-2xl font-black text-text-off-white">GIS + Hydromet</div></div>
 <div class="rounded border border-primary/50 bg-primary/10 p-5"><div class="font-mono text-xs uppercase text-primary">Proposal</div><div class="mt-2 font-headline text-2xl font-black text-text-off-white">Fullstack Scope</div></div>
 </div>
 </div>
